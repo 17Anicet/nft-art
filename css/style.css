@@ -1,0 +1,241 @@
+@font-face{
+    font-family: 'Lato-Light';
+    src: url('Lato-Light.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Lato-Regular';
+    src: url('Lato-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    font-size: 16px;
+    background-color: white;
+    font-family: 'Lato-Regular';
+}
+/****************************************************/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0px 0px 4px 0px rgb(187, 187, 24);
+    background-color: rgba(14, 46, 84, 0.991);
+}
+header .blocs{
+    gap: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .blocs p img{
+    width: 70px;
+}
+header .blocks ul{
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+}
+header .blocks ul li a{
+    color: rgb(187, 187, 24);
+    font-weight: bolder;
+}
+header .blocks ul li a:hover{
+    color: white;
+    transition: 1s;
+}
+.connect{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px white;
+}
+/****************************************************/
+.accueil{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: animation 40s infinite;
+}
+.contenu{
+    animation: animation 2s;
+}
+.s-contenu{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.robotos{
+    padding-top: 250px;
+    text-align: center;
+}
+.robotos h1{
+    color: white;
+    font-size: 10rem;
+    letter-spacing: 25px;
+}
+.robotos h4{
+    margin-top: 50px;
+}
+.robotos h4 a{
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px white;
+    background-color: rgba(14, 46, 84, 0.991);
+}
+@keyframes animation{
+    0%{
+        background-image: url(../Images/nft1.jpg);
+    }
+    20%{
+        background-image: url(../Images/nft1.jpg);
+    }
+    20.1%{
+        background-image: url(../Images/nft2.jpg);
+    }
+    40%{
+        background-image: url(../Images/nft2.jpg);
+    }
+    40.1%{
+        background-image: url(../Images/nft3.jpg);
+    }
+    60%{
+        background-image: url(../Images/nft3.jpg);
+    }
+    60.1%{
+        background-image: url(../Images/nft4.png);
+    }
+    80%{
+        background-image: url(../Images/nft4.png);
+    }
+    80.1%{
+        background-image: url(../Images/nft5.jpg);
+    }
+    100%{
+        background-image: url(../Images/nft5.jpg);
+    }
+}
+/****************************************************/
+.blocone{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-robot h3{
+    margin-bottom: 10px;
+    font-size: xx-large;
+    color: rgb(187, 187, 24);
+}
+.about-robot h4{
+    width: 130px;
+    border-bottom: 4px solid rgb(178, 178, 60);
+}
+.about-robot p{
+    margin-top: 70px;
+    font-size: x-large;
+}
+.robot p img{
+    width: 500px;
+}
+/****************************************************/
+.behind-robot{
+    color: white;
+    padding: 50px;
+    background-color: rgba(14, 46, 84, 0.991);
+}
+.behind-robot-container{
+    width: 900px;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0px white;
+}
+.behind-robot-container h3{
+    color: rgb(178, 178, 60);
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+.behind-robot-container h4{
+    width: 147px;
+    border-bottom: 4px solid rgb(187, 187, 24);
+}
+.behind-robot-container p{
+    font-size: large;
+    margin-top: 30px;
+}
+.behind-robot-container span{
+    color: rgb(178, 178, 60);
+}
+/****************************************************/
+.bloc-all{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+}
+.bloc3{
+    width: 100%;
+}
+.bloc4 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bloc4 div p img{
+    width: 70px;
+}
+/****************************************************/
+.how-do-nft{
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background-color: rgba(14, 46, 84, 0.991);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.how-do-nft h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(178, 178, 60);
+}
+.how-do-nft h4{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom: 4px solid rgb(178, 178, 60);
+}
+.all-bloc-a{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.all-bloc-a div{
+    width: 400px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px white;
+}
+.all-bloc-a div p span{
+    font-size: xx-large;
+    color: rgb(178, 178, 60);
+}
