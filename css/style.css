@@ -239,3 +239,23 @@ header .blocks ul li a:hover{
     font-size: xx-large;
     color: rgb(178, 178, 60);
 }
+/****************************************************/
+.bloc5 div{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.bloc5 p img{
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: -110px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.bloc5 h1{
+    font-size: xx-large;
+}
