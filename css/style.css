@@ -68,6 +68,7 @@ header .blocks ul li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     animation: animation 40s infinite;
+    background-color: rgba(14, 46, 84, 0.991);
 }
 .contenu{
     animation: animation 2s;
@@ -75,7 +76,7 @@ header .blocks ul li a:hover{
 .s-contenu{
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 .robotos{
     padding-top: 250px;
@@ -98,34 +99,34 @@ header .blocks ul li a:hover{
 }
 @keyframes animation{
     0%{
-        background-image: url(../Images/nft1.jpg);
+        background-image: url(../Images/Logo.png);
     }
     20%{
-        background-image: url(../Images/nft1.jpg);
+        background-image: url(../Images/nft1-removebg-preview.png);
     }
     20.1%{
-        background-image: url(../Images/nft2.jpg);
+        background-image: url(../Images/nft2-removebg-preview.png);
     }
     40%{
-        background-image: url(../Images/nft2.jpg);
+        background-image: url(../Images/nft1-removebg-preview.png);
     }
     40.1%{
-        background-image: url(../Images/nft3.jpg);
+        background-image: url(../Images/nft3-removebg-preview.png);
     }
     60%{
-        background-image: url(../Images/nft3.jpg);
+        background-image: url(../Images/nft3-removebg-preview.png);
     }
     60.1%{
-        background-image: url(../Images/nft4.png);
+        background-image: url(../Images/nft4-removebg-preview.png);
     }
     80%{
-        background-image: url(../Images/nft4.png);
+        background-image: url(../Images/nft4-removebg-preview.png);
     }
     80.1%{
-        background-image: url(../Images/nft5.jpg);
+        background-image: url(../Images/nft5-removebg-preview.png);
     }
     100%{
-        background-image: url(../Images/nft5.jpg);
+        background-image: url(../Images/nft5-removebg-preview.png);
     }
 }
 /****************************************************/
@@ -289,6 +290,10 @@ footer div a{
     color: white;
     font-weight: bolder;
 }
+footer div a:hover{
+    transition: 1s;
+    color: rgb(178, 178, 60);
+}
 .buy{
     padding: 15px;
     border-radius: 15px;
@@ -297,3 +302,4 @@ footer div a{
 footer div p{
     margin-top: 40px;
 }
+/****************************************************/
