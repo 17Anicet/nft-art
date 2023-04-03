@@ -243,19 +243,22 @@ header .blocks ul li a:hover{
 .bloc5 div{
     width: 500px;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 120px;
+    margin: auto;
     padding: 30px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.bloc5 p{
+    text-align: center;
 }
 .bloc5 p img{
     width: 150px;
     border-radius: 50%;
     position: relative;
-    top: -110px;
+    top: 80px;
     background-color: white;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .bloc5 h1{
+    margin-top: 80px;
     font-size: xx-large;
 }
