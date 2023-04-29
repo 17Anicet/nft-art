@@ -54,6 +54,32 @@ header .blocks ul li a{
     border-radius: 6px;
     box-shadow: 0px 0px 3px 0px white;
 }
+.nav-bar p img{
+    width: 30px;
+}
+.nav-bar-link{
+    position: absolute;
+    width: 400px;
+    top: 68px;
+    font-weight: bolder;
+    background-color: rgb(3, 7, 30);
+    box-shadow: 0px 0px 3px 0px white;
+}
+.nav-bar-link ul li{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.nav-bar-link ul li:hover{
+    
+}
+.nav-bar-link ul li a{
+    color: white;
+}
+.nav-bar-link ul li a:hover{
+    color: rgb(3, 7, 30);
+    background-color: white;
+}
 /****************************************************/
 .accueil{
     width: 100%;
