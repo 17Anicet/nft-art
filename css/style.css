@@ -60,7 +60,7 @@ header .blocks2 a{
     border-radius: 6px;
     box-shadow: 0px 0px 3px 0px white;
 }
-.menu-image{
+.menu-image, .menu{
     display: none;
     width: 30px;
 }
@@ -330,7 +330,7 @@ footer div p{
     header .blocks1{
         display: none;
     }
-    .menu-image{
+    .menu-image,.menu{
         display: initial;
         cursor: pointer;
     }
