@@ -227,6 +227,7 @@ header .blocks ul li a{
     text-align: center;
     margin: auto;
     padding: 15px;
+    padding-bottom: 40px;
     border-radius: 20px;
     box-shadow: 0px 0px 3px 0px white;
 }
@@ -262,7 +263,7 @@ footer{
 }
 footer div h1{
     font-size: 5rem;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 footer div a{
     color: white;
