@@ -60,7 +60,7 @@ header .blocks2 a{
     border-radius: 6px;
     box-shadow: 0px 0px 3px 0px white;
 }
-.nav-bar p img{
+.menu-image{
     display: none;
     width: 30px;
 }
@@ -73,6 +73,7 @@ header .blocks2 a{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
+    transition: 0.8s ease-in-out;
     background-color: rgb(3, 7, 30);
     box-shadow: 0px 0px 3px 0px white;
 }
@@ -329,9 +330,12 @@ footer div p{
     header .blocks1{
         display: none;
     }
-    .nav-bar p img{
+    .menu-image{
         display: initial;
         cursor: pointer;
+    }
+    .menu{
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 690px){

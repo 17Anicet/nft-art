@@ -162,5 +162,16 @@
             </p>
         </div>
     </footer>
+
+
+    <script>
+        const image = document.querySelector(".menu-image");
+        const lists = document.querySelector(".nav-bar-link");
+
+        image.addEventListener('click', () =>{
+            image.classList.toggle('menu');
+            lists.classList.toggle('menu');
+        })
+    </script>
 </body>
 </html>
