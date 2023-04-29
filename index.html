@@ -22,8 +22,10 @@
                 <li class="blocks2"><a class="connect" href="#">Connect</a></li>
             </ul>
             <div class="nav-bar">
-                <p><img class="menu-image" src="Images/menu.png" alt="menu"></p>
-                <p><img class="menu" src="Images/Exit_icon.png" alt="exit"></p>
+                <div class="nav-bar-images">
+                    <p><img class="menu-image" src="Images/menu.png" alt="menu"></p>
+                    <p><img class="close" src="Images/Exit_icon.png" alt="exit"></p>
+                </div>
                 <div class="nav-bar-link">
                     <ul>
                         <li><a href="#">Workshop</a></li>
@@ -166,7 +168,7 @@
 
 
     <script>
-        const image = document.querySelector(".menu-image");
+        const image = document.querySelector(".nav-bar-images");
         const lists = document.querySelector(".nav-bar-link");
 
         image.addEventListener('click', () =>{

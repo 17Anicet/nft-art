@@ -60,8 +60,10 @@ header .blocks2 a{
     border-radius: 6px;
     box-shadow: 0px 0px 3px 0px white;
 }
-.menu-image, .menu{
+.nav-bar-images{
     display: none;
+}
+.menu-image, .close{
     width: 30px;
 }
 .nav-bar-link{
@@ -330,9 +332,21 @@ footer div p{
     header .blocks1{
         display: none;
     }
-    .menu-image,.menu{
+    .nav-bar-images{
         display: initial;
         cursor: pointer;
+    }
+    .menu-image{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    .menu .menu-image{
+        display: none;
+    }
+    .menu .close{
+        display: initial;
     }
     .menu{
         margin-right: 0;
