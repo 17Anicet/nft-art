@@ -315,7 +315,7 @@ footer div p{
 /****************************************************/
 @media screen and (max-width: 966px){
     .accueil{
-        height: 150vh;
+        height: 120vh;
         background-position: bottom;
     }
     .blocone{
