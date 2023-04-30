@@ -120,7 +120,7 @@ header .blocks2 a{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 3px 0px white;
-}
+}/***************************
 @keyframes animation{
     0%{
         background-image: url(../Images/background_nft-1.png);
@@ -315,8 +315,7 @@ footer div p{
 /****************************************************/
 @media screen and (max-width: 966px){
     .accueil{
-        height: 120vh;
-        background-position: bottom;
+        background-position: right;
     }
     .blocone{
         display: flex;
