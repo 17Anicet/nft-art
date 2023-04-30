@@ -178,8 +178,7 @@ header .blocks2 a{
 }
 /****************************************************/
 .behind-robot{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 30px;
     background-color: rgb(3, 7, 30);
 }
 .behind-robot-container{
@@ -369,7 +368,7 @@ footer div p{
     .robot p img{
         width: 300px;
     }
-    .bloc5{
+    .bloc5,.behind-robot,.bloc-all,.all-bloc-a{
         padding: 15px;
     }
     .bloc5 div{
