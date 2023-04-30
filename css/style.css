@@ -315,7 +315,8 @@ footer div p{
 /****************************************************/
 @media screen and (max-width: 966px){
     .accueil{
-        background-position: center;
+        height: 150vh;
+        background-position: bottom;
     }
     .blocone{
         display: flex;
