@@ -368,8 +368,11 @@ footer div p{
     .robot p img{
         width: 300px;
     }
-    .bloc5,.behind-robot,.bloc-all,.all-bloc-a{
+    .bloc5,.behind-robot,.bloc-all,.how-do-nft{
         padding: 15px;
+    }
+    .all-bloc-a div{
+        width: 100%;
     }
     .bloc5 div{
         width: 100%;
